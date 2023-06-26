@@ -1,0 +1,16 @@
+.navigation_bar_link{
+    color:rgb(255,255,255);
+    background-color:rgb(14, 167, 14);
+    font-size: x-large;
+}
+
+.navigation_bar_link:hover{
+    color:rgb(172, 188, 29);
+    background-color: rgb(1, 33, 1);
+    font-size:xx-large;
+}
+
+.shopping_category{
+    color:rgb(1, 33, 1);
+    background-color: rgb(172, 188, 29);
+}
