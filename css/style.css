@@ -1,13 +1,22 @@
+/* header */
+
+.navigation_bar{
+    background-color:rgb(4, 99, 4);
+    color: rgb(255,255,255);
+    position:fixed;
+    border:5px solid rgb(4,99,4);
+    margin:0px 0px 0px 0px;
+}
+
 .navigation_bar_link{
     color:rgb(255,255,255);
-    background-color:rgb(14, 167, 14);
     font-size: x-large;
+    text-decoration: none;
 }
 
 .navigation_bar_link:hover{
-    color:rgb(172, 188, 29);
-    background-color: rgb(1, 33, 1);
-    font-size:xx-large;
+    color:rgb(255,255,0);
+    font-size:35px;
 }
 
 .shopping_category{
@@ -15,8 +24,36 @@
     background-color: rgb(172, 188, 29);
 }
 
+/* home */
+.logo{
+    width:35%;
+    float:left;
+    border:none;
+    padding:3px 18px 3px 18px;
+    margin-right: 20px;
+    background-color: rgb(255,255,255);
+    border-style:solid;
+    border-radius: 8px;
+    border-color:rgb(4, 99, 4);
+}
 
+.mainpicture{
+    width:100%;
+    float:left;
+    border-top:5px rgb(4, 99, 4) solid;
+    border-bottom:5px rgb(4, 99, 4) solid;
+    margin-bottom:10px;
+}
 
+/* footer */
+.footer_text{
+    text-align: center;
+    font-weight: 600px;
+    font-size: x-large;
+    color:rgb(1, 33, 1);
+    margin-top: 50px;
+    padding-top:50px;
+}
 
 /* about */
 
@@ -59,8 +96,8 @@
     padding-left:25px;
 }
 
-.copyright{
-    text-align: center;
-    font-size: large;
-    font-weight: 600;
+/* shop */
+.product_item{
+    width:350px;
+    margin:2px 3px 2px 3px;
 }
