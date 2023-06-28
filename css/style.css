@@ -9,7 +9,7 @@ header{
     margin-bottom: 0px;
     width:100%;
     margin-top:0px;
-    z-index: 1;
+    z-index: 3;
     overflow-x: hidden;
 }
 
@@ -71,6 +71,7 @@ footer{
     padding-top:1px;
     bottom: 0%;
     top:90%;
+    z-index: 2;
 
 }
 
@@ -117,8 +118,52 @@ footer{
 
 /* shop */
 .product_item{
-    width:350px;
+    width:286px;
     margin:2px 3px 2px 3px;
+}
+
+.shop_main_container{
+    width:100%;
+    top: 15.8%;
+    bottom:20%;
+    height:90%;
+    position: fixed;
+    z-index:0;
+    background-color: rgb(255,255,255);
+}
+
+.menu_container{
+    display: inline-block; /* inline: allows multiple side by side. block: allows for more complex styling */
+    width: 20%; /* make each section have a width of 50% of the window */
+    height: 100vh; /* make the sections take up 100% of the vertical height of the window */
+    overflow-y: auto; /* if the content of a section does not fit, the section will be scrollable vertically (on the y axis) */
+            /* the following css is irrelevant styling */
+    font-size: 20px;
+    
+}
+
+.product_container{
+    display: inline-block; /* inline: allows multiple side by side. block: allows for more complex styling */
+    width: 79%; /* make each section have a width of 50% of the window */
+    height: 100vh; /* make the sections take up 100% of the vertical height of the window */
+    overflow-y: auto; /* if the content of a section does not fit, the section will be scrollable vertically (on the y axis) */
+            /* the following css is irrelevant styling */
+    font-size: 20px;
+  
+
+    /*
+    width: 85%;
+    position: fixed;
+    z-index: 1;
+    top: 15.8%;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+    right:0;
+    background-color: rgb(255,255,255);
+
+    */
+
 }
 
 /* login */
@@ -198,7 +243,7 @@ footer{
 }
 
 .details_container{
-    height: 71.9%;
+    
     width: 45%;
     position: fixed;
     z-index: 1;
@@ -210,7 +255,7 @@ footer{
 }
 
 .form_container{
-    height: 71.9%;
+    
     width: 55%;
     position: fixed;
     z-index: 1;
