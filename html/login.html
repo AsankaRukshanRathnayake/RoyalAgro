@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <head>
+        <title>Register</title>
+
+        <meta charset="UTF-8">
+        
+        <link type="text/css" href="../css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <a href="home.html">
+                <img src="../images/logo.png" class="logo">
+            </a>
+
+            <a href="home.html" class="navigation_bar_link">Home</a>&nbsp;
+            <a href="shop.html" class="navigation_bar_link">Shop</a>&nbsp;
+            <a href="about.html" class="navigation_bar_link">About</a>&nbsp;
+            <a href="contact.html" class="navigation_bar_link">Contact</a>
+
+            <a href="login.html"  title="Click here to Login">
+                <img src="../images/userprofile.png" class="loginButton">
+            </a>
+            
+        </header>
+
+        <br><br><br><br><br>
+        <div class="">
+            <div class="login_main_view">
+                <div class="login_form">
+                    <p>Login</p>
+
+                    <div class="login_form">
+                        <form method="post" action="home.html">
+                            <table class="login_form_table">
+
+                                <tr class="login_form_table_row">
+                                    <td class="login_form_table_column">
+                                        <label for="email">Email</label>
+                                    </td>
+                                    <td>
+                                        <input type="email"class="login_form_field" name="emailaddress" id="emailaddress" required>
+                                    </td>
+                                </tr>
+
+                                <tr class="login_form_table_row">
+                                    <td>
+                                        <label for="password">Password</label>
+                                    </td>
+                                    <td>
+                                        <input type="password" class="login_form_field" name="password" id="password" size="40" required>
+                                    </td>
+                                </tr>
+
+                            </table>
+
+                            <input type="submit" class="submit_button" name="submit" value="Submit">
+
+                        </form>
+
+                        <div class="login_text">
+                            <p>
+                                Do not have an account? 
+                                <a href="user_account_manager/register.html"> Click here to register. </a>
+                            </p>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        
+    </body>
+</html>
