@@ -10,7 +10,7 @@
 
     <body>
 
-        <nav class="navigation_bar">
+        <header>
             <a href="home.html">
                 <img src="../images/logo.png" class="logo">
             </a>
@@ -19,26 +19,89 @@
             <a href="shop.html" class="navigation_bar_link">Shop</a>&nbsp;
             <a href="about.html" class="navigation_bar_link">About</a>&nbsp;
             <a href="contact.html" class="navigation_bar_link">Contact</a>
-        </nav>
+    
+            <a href="login.html"  title="Click here to Login">
+                <img src="../images/userprofile.png" class="loginButton">
+            </a>
+        </header>
 
-        <br><br><br><br><br>
-
-        <p>
-            &nbsp; Email:<a href="mailto:mrk.royalagro@gmail.com?Subject=Comment" title="Contact us via email">Marketing</a>
-            &nbsp; Phone:+94 123 456 789
-        </p>
-
-        <p>
-            &nbsp; Email:<a href="mailto:rtl.royalagro@gmail.com?Subject=Comment" title="Contact us via email">Retail Store</a>
-            &nbsp; Phone:+94 123 456 788
-        </p>
-
-        <hr>
-
-        <p class="footer_text">
-            Copyright &copy; 2023 RoyalAgro &trade;
-        </p>
-
+        <div>
+            <div class="contact_page_container">
+                <div class="details_container">
+                    <h2>Come See Our Store</h2>
+                    <p class="paragraph">
+                        Our main store is located at :<br>
+                        No.564/3,<br>
+                        Colombo Road,<br>
+                        Gampaha,<br>
+                        Sri Lanka.<br>
+            
+                        <br>
+                        We are open from <b>9.00am to 6.00pm</b> from <b>Monday through Saturday.</b><sup>1</sup>
+            
+                        <br>
+                        <sup>1</sup>Closed on Public holidays.
+                    </p>
+                </div>
         
+                <div class="form_container">
+                    <form class="form">
+                        <h2 class="form_title">Message US</h2>
+                        <table>
+                            <tr>
+                                <td class="contact_form_label">
+                                    <label for="username">Name</label>
+                                </td>
+                                <td>
+                                    <input type="text" class="contact_form_data" name="username" id="username" maxlength="200" required>
+                                </td>
+                            </tr>
+        
+                            <tr>
+                                <td class="contact_form_label">
+                                    <label for="emailaddress">Email</label>
+                                </td>
+                                <td>
+                                    <input type="email" class="contact_form_data" name="emailaddress" id="emailaddress" required>
+                                </td>
+                            </tr">
+        
+                            <tr>
+                                <td class="contact_form_label">
+                                    <label for="phonenumber">Phone No.</label>
+                                </td>
+                                <td>
+                                    <input type="text" class="contact_form_data" name="phonenumber" id="phonenumber" maxlength="15" required>
+                                </td>
+                            </tr>
+        
+                            <tr>
+                                <td class="contact_form_label">
+                                    <label for="message">Message</label>
+                                </td>
+                                <td>
+                                    <textarea name="message" id="message" cols="50" rows="8" maxlength="2000"></textarea>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <div>
+                            <input type="reset" class="send_button" name="clear" id="clear" value="Clear">
+                            <input type="submit" class="send_button" name="submit" id="submit" value="Send">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="footer_container">
+                    <footer>
+                        <p>
+                            Copyright &copy; 2023 RoyalAgro &trade;
+                        </p>
+                    </footer>
+                </div>
+                
+            </div>
+        </div>
+    
     </body>
 </html>
