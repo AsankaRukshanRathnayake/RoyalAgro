@@ -3,17 +3,59 @@
         <title>Cart</title>
 
         <meta charset="UTF-8">
-        <meta http-equiv="refresh" content="10;url=shop.html">
+
+        <!--
+            <meta http-equiv="refresh" content="10;url=shop.html">
+        -->
         <link type="text/css" href="../css/style.css" rel="stylesheet">
     </head>
 
     <body>
         <div class="cart_main_container">
+
             <div class="cart_header_container">
-                cart header
+
+                <div class="cart_header">
+                    <a href="home.html">
+                        <img src="../images/logo.png" class="logo">
+                    </a>
+        
+                    <a href="home.html" class="navigation_bar_link">Home</a>&nbsp;
+                    <a href="shop.html" class="navigation_bar_link">Shop</a>&nbsp;
+                    <a href="about.html" class="navigation_bar_link">About</a>&nbsp;
+                    <a href="contact.html" class="navigation_bar_link">Contact</a>
+        
+                    <a href="login.html"  title="Click here to Login">
+                        <img src="../images/userprofile.png" class="loginButton">
+                    </a>
+                </div>
+
             </div>
-            <div class="cart_details_contatiner">
-                cart details
+
+            <div class="cart_details_container">
+                <div class="cart_table">
+                    <table border="1">
+                        <tr>
+                            <th width="250px">Item</th>
+                            <th width="150px">No. of Units</th>
+                            <th width="150px">Unit Price</th>
+                            <th width="150px">Total</th>
+                            <th width="40px"></th>
+                        </tr>
+                        <tr>
+                            <td>Product1</td>
+                            <td><input type="number" min="1" max="100" value="1"></td>
+                            <td>Rs.200</td>
+                            <td>Rs.200</td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="3">Total</td>
+                            <td>Rs.200</td>
+                        </tr>
+                    </table>
+
+                </div>
             </div>
 
             <div class="cart_total_container">
