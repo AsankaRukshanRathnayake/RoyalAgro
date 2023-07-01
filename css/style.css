@@ -7,7 +7,7 @@ header{
     border:5px solid rgb(4,99,4);
     padding-bottom: 0px;
     margin-bottom: 0px;
-    width:100%;
+    width:99%;
     margin-top:0px;
     z-index: 3;
     overflow-x: hidden;
@@ -15,19 +15,28 @@ header{
 
 .navigation_bar_link{
     color:rgb(255,255,255);
-    font-size: x-large;
+    font-size: 25px;
     text-decoration: none;
+    margin:30px 0px 30px 0px;
+    padding:5px 15px 5px 15px;
+    border:5px solid rgb(4, 99, 4);
 }
 
 .navigation_bar_link:hover{
-    color:rgb(255,255,0);
-    font-size:35px;
+    border-color: rgb(255,255,0);
+    border-radius:12px;
+    background-color: rgb(255,255,0);
+    color:rgb(4, 99, 4);
+}
+
+.CartButton{
+    width:3%;
+    margin:30px 5px 0px 340px;
 }
 
 .loginButton{
-    width:5%;
-    float: right;
-    margin:6px 30px 0px 15px;
+    width:3%;
+    margin:30px 0px 0px 15px;
 }
 
 
@@ -252,6 +261,14 @@ nav a{
 
 /* login */
 .login_main_view{
+    width:600px;
+    border:6px rgb(108, 203, 108) outset;
+    border-radius: 15px;
+    margin:7% 0% 0% 30%;
+    background-color: rgb(233, 250, 233);
+}
+
+.register_main_view{
     width:600px;
     border:6px rgb(108, 203, 108) outset;
     border-radius: 15px;
@@ -538,7 +555,6 @@ a{
     height: 100%;
     position: absolute;
     top:0%;
-    background-color: black;
     z-index:0;
     overflow-y: hidden;
     
@@ -556,7 +572,6 @@ a{
     width:70%;
     height:77%;
     top:15.9%;
-    background-color:red;
     position: absolute;
     z-index: 1;
     overflow-x: hidden;
@@ -569,7 +584,6 @@ a{
     height:77%;
     top:15.9%;
     right:0;
-    background-color: yellow;
     overflow-x:hidden;
     display:inline-block;
     position: absolute;
@@ -580,7 +594,6 @@ a{
     width:100%;
     height:8%;
     bottom:0%;
-    background-color: green;
     position:absolute;
     z-index:1;
 
@@ -600,11 +613,105 @@ a{
     overflow-x: hidden;
 }
 
+.cart_footer{
+    text-align: center;
+    font-weight: 900px;
+    font-size: 18px;
+    background-color: rgb(4,99,4);
+    color: rgb(255,255,255);
+    padding-bottom: 20px;
+    padding-top:8px;
+    margin-bottom: 5px;
+    z-index: 2;
+}
+
 .cart_table{
-    margin:100px 10px 100px 100px;
+    margin:50px 10px 50px 50px;
     row-gap: 10px;
     font-size:25px;
 }
+
+.cart_table_image{
+    width:90px;
+    margin:1px 30px 1px 30px;
+}
+
+.cart_table_item{
+    padding:15px 15px 15px 15px;
+    text-align:center;
+}
+
+.cart_table_units{
+    padding:15px 15px 15px 15px;
+    text-align:center;
+}
+
+.cart_table_price{
+    padding:15px 15px 15px 15px;
+    text-align:center;
+}
+
+.cart_table_total{
+    padding:15px 15px 15px 15px;
+    text-align:center;
+}
+
+.cart_total{
+    height:60%;
+    width:80%;
+    margin-top:10%;
+    border:5px solid rgb(2, 46, 2);
+    border-radius:12px;
+    background-color: rgb(211, 248, 211);
+    padding:25px 5px 25px 5px;
+}
+
+.cart_total_table{
+    margin-bottom:40px;
+    margin-top:30px;
+}
+
+.cart_total_total{
+    color:rgb(0,0,0);
+    font-size: 30px;
+    padding:10px 0px 5px 5px;
+    text-align: center;
+
+}
+
+.cart_total_shipping{
+    width:10%;
+    height:30%;
+    color:rgb(4,99,4);
+    font-size: 25px;
+    padding:10px 5px 5px 5px;
+    text-align: center;
+}
+
+.cart_total_final{
+    width:20%;
+    height:30%;
+    color:rgb(1, 33, 1);
+    font-size: 40px;
+    padding:10px 5px 5px 5px;
+    text-align: center;
+}
+
+.proceed_to_checkout_button2{
+    width:210px;
+    background-color: rgb(213, 194, 18);
+    color:rgb(74, 61, 5);
+    font-size:20px;
+    font-weight: 400;
+    border:1px solid rgb(179,198,97);
+    border-radius: 30px;
+    margin:60px 15px 20px 35px;
+    padding:10px 20px 10px 60px;
+    text-decoration: none;
+}
+
+
+
 
 
 
