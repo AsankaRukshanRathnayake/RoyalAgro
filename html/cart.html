@@ -25,6 +25,10 @@
                     <a href="about.html" class="navigation_bar_link">About</a>&nbsp;
                     <a href="contact.html" class="navigation_bar_link">Contact</a>
         
+                    <a href="cart.html"  title="View Your Cart">
+                        <img src="../images/cart.png" class="CartButton">
+                    </a>
+        
                     <a href="login.html"  title="Click here to Login">
                         <img src="../images/userprofile.png" class="loginButton">
                     </a>
@@ -34,24 +38,44 @@
 
             <div class="cart_details_container">
                 <div class="cart_table">
-                    <table border="1">
+                    <table>
                         <tr>
-                            <th width="250px">Item</th>
-                            <th width="150px">No. of Units</th>
-                            <th width="150px">Unit Price</th>
-                            <th width="150px">Total</th>
-                            <th width="40px"></th>
+                            <th width="350px" class="cart_table_item" colspan="2">Item</th>
+                            <th width="130px" class="cart_table_units">No. of Units</th>
+                            <th width="150px" class="cart_table_price">Unit Price</th>
+                            <th width="190px" colspan="2" class="cart_table_total">Total</th>
                         </tr>
+                        
                         <tr>
-                            <td>Product1</td>
-                            <td><input type="number" min="1" max="100" value="1"></td>
-                            <td>Rs.200</td>
-                            <td>Rs.200</td>
+                            <td><img src="../images/item.jpeg" class="cart_table_image"></td>
+                            <td class="cart_table_item">Product1</td>
+                            <td class="cart_table_units"><input type="number" class="add_to_cart_amount" min="1" max="100" value="1"></td>
+                            <td class="cart_table_price">Rs.200</td>
+                            <td class="cart_table_total">Rs.200</td>
+                            <td><img src="../images/delete.png"></td>
                         </tr>
 
                         <tr>
-                            <td colspan="3">Total</td>
-                            <td>Rs.200</td>
+                            <td><img src="../images/item.jpeg" class="cart_table_image"></td>
+                            <td class="cart_table_item">Product2</td>
+                            <td class="cart_table_units"><input type="number" class="add_to_cart_amount" min="1" max="100" value="1"></td>
+                            <td class="cart_table_price">Rs.200</td>
+                            <td class="cart_table_total">Rs.200</td>
+                            <td><img src="../images/delete.png"></td>
+                        </tr>
+
+                        <tr>
+                            <td><img src="../images/item.jpeg" class="cart_table_image"></td>
+                            <td class="cart_table_item">Product3</td>
+                            <td class="cart_table_units"><input type="number" class="add_to_cart_amount" min="1" max="100" value="1"></td>
+                            <td class="cart_table_price">Rs.200</td>
+                            <td class="cart_table_total">Rs.200</td>
+                            <td><img src="../images/delete.png"></td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="4" class="cart_table_item"><b>Total</b></td>
+                            <td colspan="2" class="cart_table_total"><b>Rs.600</b></td>
                         </tr>
                     </table>
 
@@ -59,11 +83,33 @@
             </div>
 
             <div class="cart_total_container">
-                cart total
+                <div class="cart_total">
+                    <table class="cart_total_table">
+                        <tr class="cart_total_total_row">
+                            <td class="cart_total_total">Total</td>
+                            <td class="cart_total_total">Rs.600</td>
+                        </tr>
+                        <tr>
+                            <td class="cart_total_shipping">Shipping</td>
+                            <td  class="cart_total_shipping">Calculate Shipping</td>
+                        </tr>
+                        <tr>
+                            <td class="cart_total_final">Total</td>
+                            <td class="cart_total_final">Rs.600</td>
+                        </tr>
+                    </table>
+
+                    <div class="proceed_to_checkout_button2">
+                        <a href="payment.html" class="checkout_link">Proceed to Checkout</a>
+                    </div>
+
+                </div>
             </div>
 
             <div class="cart_footer_container">
-                footer
+                <div class="cart_footer">
+                        Copyright &copy; 2023 RoyalAgro &trade;
+                </div>
             </div>
         </div>
     </body>
